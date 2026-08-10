@@ -1,0 +1,11 @@
+bs4
+ddgs
+httpx
+requests
+python-dotenv 
+openai 
+google-genai
+pandas
+numpy
+matplotlib
+seaborn
