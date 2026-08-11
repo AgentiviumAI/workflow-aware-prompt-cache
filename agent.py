@@ -1,3 +1,6 @@
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+# NEW ALGORITHM: PREFIX-LINEAGE-AWARE (ACTIVE)
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
 import asyncio
 from sglang_client import generate_response
 from tools import search_web
@@ -118,7 +121,7 @@ async def run_verifier(task: str, summary: str, policy: str, format_req: str, co
     
     blocks = create_blocks(policy, role, instruction, task, "Format Checker", "None", summary, format_req)
     
-    # PLA gets trace of Compressor
+    # PLA gets trace of Compressor (hay Trace của Researcher nếu chạy Simple Workflow)
     opt_res = pla_optimizer.optimize_prompt(blocks, predecessor_traces=[compressor_trace])
     prompt = opt_res["prompt_text"]
     
@@ -127,10 +130,9 @@ async def run_verifier(task: str, summary: str, policy: str, format_req: str, co
     return {"agent": "Verifier", "prompt": prompt, "output": res["text"], "metrics": res.get("metrics", {})}
 
 
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
-# OLD ALGORITHM (COMMENTED)
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
-
+# # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+# # OLD ALGORITHM (COMMENTED)
+# # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
 # import asyncio
 # from prompt_builder import build_flat_prompt, build_static_first_prompt, build_fixed_semantic_prompt
 # from sglang_client import generate_response
