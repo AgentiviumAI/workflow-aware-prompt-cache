@@ -4,10 +4,11 @@
 import asyncio
 from sglang_client import generate_response
 from tools import search_web
-from pla_optimizer import PrefixLineageAwareOptimizer
+from pla_optimizer import PrefixLineageAwareOptimizer, PrefixLineageAwareOptimizer_Hash
 
 # PLA Algorithm
-pla_optimizer = PrefixLineageAwareOptimizer("Qwen/Qwen2.5-7B-Instruct-AWQ")
+# pla_optimizer = PrefixLineageAwareOptimizer("Qwen/Qwen2.5-7B-Instruct-AWQ")
+pla_optimizer = PrefixLineageAwareOptimizer_Hash("Qwen/Qwen2.5-7B-Instruct-AWQ")
 
 def create_blocks(policy: str, role: str, instruction: str, task: str, domain: str, tools: str, evidence: str = "", fmt: str = "") -> dict:
     """Tạo các mảnh ghép (Blocks) với thẻ XML chuẩn hóa cho Optimizer."""
