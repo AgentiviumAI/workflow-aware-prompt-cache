@@ -14,7 +14,7 @@ VIS_DIR = "visualizations"
 STATS_DIR = "statistics"
 
 # METHODS = ["flat_prompt_simple_workflow_simple", "static_first_simple_workflow_simple", "fixed_semantic_prompt_simple_workflow_simple", "prefix_lineage_aware_simple_workflow_simple"]
-METHODS = ["flat_prompt_advanced_workflow", "static_first_advanced_workflow", "fixed_semantic_prompt_advanced_workflow", "prefix_lineage_aware_hash_advanced_workflow"]
+METHODS = ["flat_prompt_advanced_workflow", "static_first_advanced_workflow", "fixed_semantic_prompt_advanced_workflow", "prefix_lineage_aware_character_advanced_workflow"]
 
 for directory in [RAW_DIR, NORM_DIR, VIS_DIR, STATS_DIR]:
     os.makedirs(directory, exist_ok=True)
