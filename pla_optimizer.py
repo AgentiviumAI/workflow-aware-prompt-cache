@@ -1,7 +1,11 @@
 import itertools
+from transformers import AutoTokenizer
 
 class PrefixLineageAwareOptimizer:
-    def __init__(self):
+    def __init__(self, model_name: str = "Qwen/Qwen2.5-7B-Instruct-AWQ"):
+        # Init Tokenizer
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        
         # STEP 3: Semantic Constraints  
         # Tuple (A, B) -> Block A MUST be prior to Block B
         # Prevent Structure Hallucation
@@ -35,13 +39,17 @@ class PrefixLineageAwareOptimizer:
         return valid_layouts
 
     def _measure_exact_prefix_overlap(self, candidate_str: str, trace_str: str) -> int:
-        """STEP 4: ESTIMATE the number of token that match from the beginning of the prompt (Exact-prefix overlap)."""
+        """STEP 4: ESTIMATE exact-prefix overlap based on TOKEN IDs."""
         if not trace_str:
             return 0
             
-        m = min(len(candidate_str), len(trace_str))
+        # Encode character into list of Token IDs
+        candidate_tokens = self.tokenizer.encode(candidate_str, add_special_tokens=False)
+        trace_tokens = self.tokenizer.encode(trace_str, add_special_tokens=False)
+            
+        m = min(len(candidate_tokens), len(trace_tokens))
         for i in range(m):
-            if candidate_str[i] != trace_str[i]:
+            if candidate_tokens[i] != trace_tokens[i]:
                 return i
         return m
 
@@ -63,18 +71,27 @@ class PrefixLineageAwareOptimizer:
                 "layout_names": layout,
                 "strategy": "Standard_Composition"
             })
-            
+
         # Plan B: Trace Embedding ( Bottleneck Fan-in)
-        # Auto finding if it can reuse 100% Trace of the longest Researchers ?
         if embedded_traces:
-            for trace_name, trace_content in embedded_traces.items():
-                # Prompt: [Old Trace] + [Role Switch] + [New Task]
-                layout = [f"EMBEDDED_{trace_name}", "ROLE_SWITCH"] + self.mandatory_tail
-                prompt_text = trace_content + "\n\n" 
+            for prefix_trace_name, prefix_trace_content in embedded_traces.items():
+
+                layout = [f"EMBEDDED_{prefix_trace_name}"]
+                prompt_text = prefix_trace_content + "\n\n" 
+                           
+                prompt_text += "<OTHER_BRANCHES_DATA>\n"
+                for other_name, other_content in embedded_traces.items():
+                    if other_name != prefix_trace_name:
+                        layout.append(f"CONTEXT_{other_name}")
+                        prompt_text += f"--- Data from {other_name} ---\n{other_content}\n\n"
+                prompt_text += "</OTHER_BRANCHES_DATA>\n\n"
+                
+                layout.append("ROLE_SWITCH")
                 prompt_text += "<ROLE_SWITCH>\nYour role is now COMPRESSOR. Stop researching and synthesize the data.\n</ROLE_SWITCH>\n\n"
                 
                 for tail in self.mandatory_tail:
                     if tail in blocks:
+                        layout.append(tail)
                         prompt_text += blocks[tail]
                 
                 candidates.append({
@@ -90,7 +107,7 @@ class PrefixLineageAwareOptimizer:
         for candidate in candidates:
             current_max_overlap = 0
             
-            # ĐCompare with each Prior Node in the Graph DAG
+            # Compare with each Prior Node in the Graph DAG
             if predecessor_traces:
                 for trace in predecessor_traces:
                     overlap = self._measure_exact_prefix_overlap(candidate["prompt_text"], trace)
@@ -100,7 +117,7 @@ class PrefixLineageAwareOptimizer:
                 # Planner is the first node, overlap=0
                 current_max_overlap = 0
                 
-            candidate["estimated_overlap_chars"] = current_max_overlap
+            candidate["estimated_overlap_tokens"] = current_max_overlap
             
             if current_max_overlap > max_overlap:
                 max_overlap = current_max_overlap

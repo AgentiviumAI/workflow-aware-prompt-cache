@@ -158,7 +158,7 @@ async def execute_workflow(task_data: dict, semaphore: asyncio.Semaphore) -> dic
     return record
 
 async def main():
-    base_name = "prefix_lineage_aware_simple_workflow"
+    base_name = "prefix_lineage_aware_advanced_workflow"
     experiment_name = f"{base_name}_simple" if SIMPLE_WORKFLOW else base_name
     output_file = f"raw_result/{experiment_name}.jsonl"
     
@@ -332,7 +332,7 @@ if __name__ == "__main__":
 #     return record
 
 # async def main():
-#     base_name = "fixed_semantic_prompt_simple_workflow"
+#     base_name = "fixed_semantic_prompt_advanced_workflow"
 #     experiment_name = f"{base_name}_simple" if SIMPLE_WORKFLOW else base_name
 #     output_file = f"raw_result/{experiment_name}.jsonl"
     

@@ -7,7 +7,7 @@ from tools import search_web
 from pla_optimizer import PrefixLineageAwareOptimizer
 
 # PLA Algorithm
-pla_optimizer = PrefixLineageAwareOptimizer()
+pla_optimizer = PrefixLineageAwareOptimizer("Qwen/Qwen2.5-7B-Instruct-AWQ")
 
 def create_blocks(policy: str, role: str, instruction: str, task: str, domain: str, tools: str, evidence: str = "", fmt: str = "") -> dict:
     """Tạo các mảnh ghép (Blocks) với thẻ XML chuẩn hóa cho Optimizer."""
