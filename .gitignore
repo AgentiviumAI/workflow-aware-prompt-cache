@@ -1,3 +1,5 @@
 __pycache__
 python_venv/
 .env
+data_cleaner/
+old_value/
