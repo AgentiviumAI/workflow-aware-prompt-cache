@@ -1,0 +1,13 @@
+==================================================
+ TOKENIZER MICROBENCHMARK (Boundary Bleed Test)
+ Model: Qwen/Qwen2.5-7B-Instruct-AWQ
+ Trials: 10000
+==================================================
+
+--- RESULTS ---
+Total Trials:                10000
+Boundary Disagreements:      0
+Disagreement Rate:           0.00%
+
+--- CONCLUSION ---
+=> SUCCESS: The Character-level proxy is highly accurate. Boundary bleed is negligible.

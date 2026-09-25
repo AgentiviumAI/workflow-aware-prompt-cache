@@ -1517,3 +1517,7 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
 [2026-09-24 17:36:11] Decode batch, #running-req: 1, #token: 1983, token usage: 0.01, cuda graph: False, gen throughput (token/s): 159.11, #queue-req: 0
 [2026-09-24 17:36:11] Decode batch, #running-req: 1, #token: 2023, token usage: 0.02, cuda graph: False, gen throughput (token/s): 159.15, #queue-req: 0
 [2026-09-24 17:36:11] Decode batch, #running-req: 1, #token: 2063, token usage: 0.02, cuda graph: False, gen throughput (token/s): 158.97, #queue-req: 0
+[2026-09-24 19:52:50] SIGTERM received. signum=None frame=None. Draining requests and shutting down...
+[2026-09-24 19:52:50] Subprocess detokenizer (pid=55453) crashed with exit code -15. Triggering SIGQUIT for cleanup...
+[2026-09-24 19:52:50] SIGQUIT received. signum=None, frame=None. It usually means one child failed.
+[2026-09-24 19:52:50] Sleeping 5 seconds before crash diagnostics to let GPU activity settle.

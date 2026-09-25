@@ -12,14 +12,14 @@ from utility.utils import check_format_validity, check_citation_hallucination
 from utility.config import NUM_TASKS, NUM_REPEATED_RUNS, TESTING_MODE, TOPIC_TO_POLICY, TOPIC_TO_FORMAT, DEFAULT_POLICY, DEFAULT_FORMAT
 
 # 1. Import PLA Optimizers
-from utility_baseline.pla_optimizer import (
+from baseline.pla_optimizer import (
     PrefixLineageAwareOptimizer_Token,
     PrefixLineageAwareOptimizer_TokenHash,
     PrefixLineageAwareOptimizer_Character
 )
 
 # 2. Import Baseline Optimizers (Class Adapters)
-from utility_baseline.prompt_builder import (
+from baseline.prompt_builder import (
     FlatPromptOptimizer,
     StaticFirstOptimizer,
     FixedSemanticOptimizer

@@ -10,3 +10,6 @@ numpy
 matplotlib
 seaborn
 transformers
+torch
+bert_score
+scipy

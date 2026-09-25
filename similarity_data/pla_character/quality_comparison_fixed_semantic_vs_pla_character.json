@@ -1,0 +1,1061 @@
+{
+    "method_a": "fixed_semantic",
+    "method_b": "pla_character",
+    "total_evaluated": 150,
+    "method_a_total_score": 45,
+    "method_b_total_score": 42,
+    "method_a_quality_rate": 30.0,
+    "method_b_quality_rate": 28.0,
+    "detailed_results": [
+        {
+            "task_id": 55,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs violate the required format of a single markdown table; Method A also contains speculative content (e.g., QuantEval) that breaches the neutrality policy, while Method B adds headings and lists beyond the table."
+        },
+        {
+            "task_id": 80,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A is overly generic, includes extraneous conversational text, lacks depth, cultural/aesthetic detail, and does not fully meet the rich descriptive policy or clean final-answer format; Method B provides a clearer, more comprehensive, culturally contextual summary that aligns with the literature policy and presents a well‑structured final answer."
+        },
+        {
+            "task_id": 58,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides a factual, neutral, well-structured answer that directly addresses the prompt and adheres to policy. Method B contains speculative and likely inaccurate claims, informal emojis, and extraneous markup, violating accuracy, neutrality, and format requirements."
+        },
+        {
+            "task_id": 56,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain extensive extra text and formatting beyond a single markdown table, violating the strict format requirement; despite factual content, the format non‑compliance leads to a score of 0 for each."
+        },
+        {
+            "task_id": 69,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A includes speculative, unverifiable details and extra non‑JSON commentary, breaking policy neutrality and required JSON format. Method B omits clear differences and connections between the protocols and also presents unverified claims, failing accuracy, policy adherence, and comprehensiveness."
+        },
+        {
+            "task_id": 96,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A provides relevant content but includes extra verification text and is truncated, violating the required clear report format. Method B delivers a well‑structured, comprehensive report that directly answers the prompt, adheres to the policy, and meets the format expectations despite minor markup tags."
+        },
+        {
+            "task_id": 83,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include narrative text, headings, and extra sections beyond a single markdown table, violating the strict format requirement; thus they fail to meet the format criterion, leading to a score of 0 for each."
+        },
+        {
+            "task_id": 94,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A adds unnecessary meta text and lacks a concise, well‑structured answer, breaching format requirements; Method B provides a clear, factual, neutral summary that satisfies accuracy, policy, format, and comprehensiveness."
+        },
+        {
+            "task_id": 68,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A includes extra non‑JSON text and code fences, breaking the strict JSON format requirement despite providing relevant content. Method B delivers a single, valid JSON object that addresses the prompt with factual, neutral information and sufficient detail, meeting all criteria."
+        },
+        {
+            "task_id": 82,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A satisfies the prompt, policy, format and is factually sound. Method B deviates from the required strict report format and contains several factual inaccuracies, leading to a failing score."
+        },
+        {
+            "task_id": 57,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs deviate from the required markdown‑table‑only format, contain speculative or irrelevant information, and lack comprehensive, factual AI‑related data for the listed consulting firms."
+        },
+        {
+            "task_id": 72,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs deviate from the required section headings and format, lack proper citations to high‑quality journal articles, and include extraneous markup, violating the policy and format criteria."
+        },
+        {
+            "task_id": 97,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs fail to fully meet the criteria. Method A provides a generic overview without concrete data, quantitative evidence, or mention of aesthetic values and trends, so it does not satisfy policy or comprehensiveness. Method B includes some data but adds excessive filler, lacks aesthetic/trend discussion, and is poorly formatted, violating policy and format compliance."
+        },
+        {
+            "task_id": 86,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A omits several key forming techniques and offers limited depth, reducing its comprehensiveness; Method B covers a wider range of technologies, provides factual comparisons and suitable route identification, aligning well with the criteria."
+        },
+        {
+            "task_id": 80,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain factual inaccuracies or irrelevant information and do not fully meet the required rich, descriptive overview. Method A misstates Japanese pronouns (e.g., \"otō-san\"/\"otō-cha\") and mixes terminology, while Method B adds unrelated details (Hornet app, company ownership) and includes extraneous emojis, failing to provide a focused, accurate answer."
+        },
+        {
+            "task_id": 56,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include extra narrative and code fences beyond a single markdown table, violating the strict format requirement, even though the content is factual and neutral."
+        },
+        {
+            "task_id": 59,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A is factually accurate, neutral, covers multiple cues and disturbances, and presents a clear final answer; Method B omits several major cues, is less comprehensive and uses non‑standard formatting, thus failing the criteria."
+        },
+        {
+            "task_id": 70,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both methods contain extra surrounding text or multiple/partial JSON blocks, violating the strict single‑JSON format requirement, even though the factual content is mostly accurate and policy‑compliant."
+        },
+        {
+            "task_id": 100,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides a well‑structured, factual paper that directly addresses the prompt, adheres to the policy, and is fairly comprehensive. Method B is a brief summary lacking full paper structure and depth, thus failing format and comprehensiveness criteria."
+        },
+        {
+            "task_id": 74,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A includes excessive filler and repeated end markers, breaking format and conciseness; Method B delivers a clear, structured, relevant report that meets policy and format requirements."
+        },
+        {
+            "task_id": 99,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs are factually correct but are brief and lack the rich, descriptive, culturally‑focused overview required by the policy; they do not fully meet the comprehensiveness or engagement criteria, though they are reasonably structured."
+        },
+        {
+            "task_id": 75,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A adds extensive non‑summary filler, contains factual inaccuracies (e.g., vitamin D as a metal ion) and does not stay within the concise bullet‑point executive summary format. Method B presents accurate content but wraps the summary in extra XML‑like tags, deviating from the pure executive‑summary‑only format required."
+        },
+        {
+            "task_id": 88,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both answers are factually inaccurate—Netflix has not produced an adaptation of One Hundred Years of Solitude—so they fail the accuracy criterion despite meeting style and format expectations."
+        },
+        {
+            "task_id": 85,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides a clear, well‑structured answer that directly addresses the prompt, stays factual and neutral, and follows the required format. Method B, while factually accurate and neutral, adds extra <EVIDENCE> and <FINAL_ANSWER> tags, which deviate from the simple, well‑structured final answer format requested."
+        },
+        {
+            "task_id": 97,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs miss the required cultural/aesthetic emphasis, contain unnecessary filler, and are not presented in the clear, well‑structured format demanded, thus failing policy adherence and format compliance."
+        },
+        {
+            "task_id": 62,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A contains excessive markup and repetitive <END> tags, making the answer poorly structured and not strictly adhering to the clear, well‑structured format requirement, whereas Method B presents a concise, neutral, fact‑based summary that directly addresses the prompt and meets the format and policy criteria."
+        },
+        {
+            "task_id": 87,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A directly answers both questions with clear headings, concise statements, and policy‑aligned content; Method B shifts to a research plan, deviates from the required structured answer, and thus fails format and relevance criteria."
+        },
+        {
+            "task_id": 86,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A adds excessive filler and repetitive sections, failing to deliver a concise, well‑structured answer as required; Method B offers a clear, factual, neutral summary that directly addresses the prompt and meets format expectations."
+        },
+        {
+            "task_id": 73,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A offers a comprehensive, well‑structured outline with keywords and practical frontline teaching strategies, fully addressing the prompt and policy. Method B, while clear, lacks a keyword list and depth of content, so it does not completely satisfy the requirements."
+        },
+        {
+            "task_id": 91,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain significant factual errors about characters and their roles, lack comprehensive coverage, and do not fully meet the clear, well‑structured format expected. Method B also adds extraneous <FINAL_ANSWER> tags, further violating format requirements."
+        },
+        {
+            "task_id": 51,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include narrative text and extra sections beyond a single markdown table, violating the strict format requirement; they also contain speculative language, so they do not fully meet policy and format criteria."
+        },
+        {
+            "task_id": 65,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A contains excessive irrelevant filler and disorganized sections, violating format and completeness; Method B delivers a concise, factual, neutral, and well‑structured report that directly addresses the prompt."
+        },
+        {
+            "task_id": 76,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include additional prompts, repeated sections, or wrapper tags beyond the concise bullet‑point executive summary with bold headers, violating the strict format requirement; their content is otherwise accurate and policy‑compliant."
+        },
+        {
+            "task_id": 75,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both Method A and Method B provide executive summaries with bullet points and bold headers, directly address the prompt, present factual information, adhere to the health policy, and offer a reasonably comprehensive overview of proposed interventions and the current state of clinical evidence."
+        },
+        {
+            "task_id": 90,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides a complete, factual, neutral analysis in a clear final‑answer style, meeting all criteria. Method B adds conversational prompts and extra meta‑content, deviating from the required concise final answer format despite being factual."
+        },
+        {
+            "task_id": 79,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain significant factual inaccuracies about the cited films and include extraneous formatting artifacts, failing the accuracy and clear‑structured requirements."
+        },
+        {
+            "task_id": 64,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A contains extraneous formatting tags, irrelevant remarks about pricing, and repeats content, violating the required clear final answer format; while still factual, it fails format compliance. Method B presents a concise, well‑structured, neutral answer that directly addresses the prompt with factual information and meets the format requirement."
+        },
+        {
+            "task_id": 67,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both methods fail to meet the strict JSON‑only format requirement and each contains content gaps or extraneous markup; Method A provides multiple JSON blocks and includes loosely related material, while Method B wraps the JSON in tags and code fences, violating the format rule."
+        },
+        {
+            "task_id": 78,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs add extra markup (verification notes, <EVIDENCE> tags, multiple sections) and do not use bold headers as specified, violating the strict format requirement; thus they receive 0 points despite generally accurate content."
+        },
+        {
+            "task_id": 53,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs add narrative and suggestions beyond a plain markdown table, lack concrete factual data on how wealthy governments invest, and therefore do not meet the required format, relevance, or comprehensiveness."
+        },
+        {
+            "task_id": 89,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides a well‑structured, accurate overview that follows the policy and format; Method B includes non‑requested tags, deviates from the expected answer style and contains less focused content, failing format compliance."
+        },
+        {
+            "task_id": 54,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include additional narrative and tags beyond a plain markdown table, violating the strict format requirement; therefore they do not meet the format criterion despite generally factual content."
+        },
+        {
+            "task_id": 93,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A violates format compliance by presenting multiple JSON objects with markdown delimiters and extra text, and includes less‑neutral content; Method B delivers a single valid JSON, adheres to neutrality, provides factual market data, and is comprehensive."
+        },
+        {
+            "task_id": 92,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs focus on technical details and omit the required rich, descriptive overview of cultural impact, aesthetic values, and trends; their structure also deviates from the clear, well‑structured format requested."
+        },
+        {
+            "task_id": 65,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A contains repetitive formatting artifacts, speculative statements and lacks a clean, well‑structured presentation, violating format and comprehensiveness criteria. Method B provides a concise, factual, neutral report that directly addresses the prompt and meets all evaluation criteria."
+        },
+        {
+            "task_id": 76,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A omits specific pathogenic bacteria and their toxic metabolites, reducing accuracy and completeness; Method B adds <OUTPUT> tags and extra markup, breaching the required plain executive‑summary bullet format."
+        },
+        {
+            "task_id": 66,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A includes extra explanatory text and code fences, so it is not strictly valid JSON, violating the format rule. Method B returns a clean JSON object that answers the prompt, stays neutral, and follows the required format."
+        },
+        {
+            "task_id": 52,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs violate the required format. Method A adds summaries, duplicate/incomplete tables, and stray markup, while Method B encloses the table in <FINAL_OUTPUT> tags and code fences, so neither provides a plain Markdown table as stipulated."
+        },
+        {
+            "task_id": 81,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain extra surrounding material (verification text, tags, incomplete conclusion) that violates the strict required format of only the three sections. While the content is generally accurate and policy‑compliant, the format non‑conformance leads to a score of 0 for each."
+        },
+        {
+            "task_id": 84,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain extra narrative and multiple sections instead of a single markdown table as required, violating the strict format rule; thus each receives 0 points."
+        },
+        {
+            "task_id": 71,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A gives a generic overview but lacks concrete global case studies and depth, falling short on comprehensiveness; Method B includes specific examples, detailed implementation steps, and broader coverage, meeting the criteria."
+        },
+        {
+            "task_id": 95,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs accurately and comprehensively address the prompt, adhere to the policy, and are presented in a clear, well‑structured format."
+        },
+        {
+            "task_id": 55,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both methods fail the required format. Method A provides multiple tables, extra commentary, and irrelevant cookie information instead of a single markdown table. Method B wraps the table in tags and adds surrounding text, also not a pure markdown table. Consequently, neither meets the strict format requirement, leading to scores of 0."
+        },
+        {
+            "task_id": 54,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs added narrative and summary sections beyond a single Markdown table, violating the strict format requirement; therefore they receive 0 points despite otherwise factual content."
+        },
+        {
+            "task_id": 93,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain extra explanatory text and code fences, so they are not pure JSON as required. Method A also presents two separate JSON objects, violating the single‑object format. Method B adds non‑JSON preamble and includes speculative statements (e.g., mentioning an unverified platform) that breach the strict neutrality policy. Hence both fail format and policy criteria."
+        },
+        {
+            "task_id": 69,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A fails format (multiple separate JSON objects) and includes speculative language, breaching policy; Method B provides a single well‑formed JSON with factual, neutral content that meets the criteria."
+        },
+        {
+            "task_id": 94,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs provide accurate, factual information on recent cloud‑based train control developments, adhere to the neutral policy, are clearly structured, and cover the key technologies comprehensively."
+        },
+        {
+            "task_id": 83,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs fail the strict format requirement of delivering only a Markdown table; Method A adds images and explanatory text, while Method B includes headings, narrative, and role‑switch instructions. Additionally, Method B introduces speculative language, breaching the neutrality policy."
+        },
+        {
+            "task_id": 58,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include inaccurate or speculative claims (e.g., mischaracterized examples, incorrect phylogenetic statements) and do not maintain the required strict factual neutrality, violating the policy despite reasonable length and format."
+        },
+        {
+            "task_id": 68,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A includes explanatory text and duplicate JSON, violating the strict JSON format requirement, so it scores 0. Method B returns a single, well‑formed JSON object that directly addresses the prompt with factual, policy‑compliant content, thus it scores 1."
+        },
+        {
+            "task_id": 57,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs omit most required firms, provide vague non‑factual details, and include extra text beyond a plain markdown table, violating accuracy, comprehensiveness, and format requirements."
+        },
+        {
+            "task_id": 98,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A includes excessive filler and disorganized 'End of' statements, breaking format compliance despite decent content; Method B delivers a clear, well‑structured, relevant, and policy‑aligned overview."
+        },
+        {
+            "task_id": 72,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs lack proper citation of high-quality journal articles, contain irrelevant or incomplete content, and thus do not fully satisfy accuracy, relevance, and comprehensiveness criteria."
+        },
+        {
+            "task_id": 71,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly answer the prompt with factual, comprehensive content, follow the policy of clear explanation, and are well‑structured, meeting all evaluation criteria."
+        },
+        {
+            "task_id": 82,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A follows the required sections, addresses Europe, Asia, and the Americas, and is factually accurate; Method B omits the required 'Key Findings' heading, adds XML tags, and is less comprehensive, violating format and completeness."
+        },
+        {
+            "task_id": 55,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs fail format compliance by adding extra text and multiple tables; Method A includes irrelevant content, and Method B adds non‑table narrative, so neither meets the strict markdown‑table‑only requirement."
+        },
+        {
+            "task_id": 56,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs violate the required format; they include extra markup, multiple tables, and non‑table text, so they do not provide a single markdown table as specified. Policy and factuality are acceptable, but format non‑compliance leads to a score of 0 for each."
+        },
+        {
+            "task_id": 100,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs fall short of fully meeting the criteria. Method A offers a brief discussion focused mainly on AI girlfriends, lacking the depth and breadth expected for a comprehensive paper, and thus is not fully comprehensive. Method B provides only an outline rather than a complete paper, so it does not directly answer the prompt or satisfy the required format. Consequently, neither method earns a point."
+        },
+        {
+            "task_id": 60,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A is factual, neutral, and presents a clear structured answer; Method B, while factual, adds unnecessary <EVIDENCE> and tag markup, violating the required plain final answer format."
+        },
+        {
+            "task_id": 85,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both methods directly answer the prompt, stay neutral, use factual (though generic) language, are well‑structured, and cover hardware, structural, manufacturing, control and production‑management aspects, satisfying accuracy, policy and format criteria."
+        },
+        {
+            "task_id": 61,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs lack specific price dynamics for Pacific Rim markets and detailed interannual weight/length data, failing the accuracy and relevance criterion, though they remain neutral and properly formatted."
+        },
+        {
+            "task_id": 74,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly address the prompt with accurate, comprehensive information, adhere to the educational policy, and present well‑structured, clear formats."
+        },
+        {
+            "task_id": 99,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A is incomplete and contains extraneous meta‑tags, violating format compliance; Method B delivers a complete, well‑structured overview that aligns with the policy and meets all evaluation criteria."
+        },
+        {
+            "task_id": 88,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain factual inaccuracies about a non‑existent Netflix adaptation and do not adhere to the required clear, well‑structured format, thus failing accuracy, policy, and format criteria."
+        },
+        {
+            "task_id": 72,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A includes questionable and possibly inaccurate data and non‑journal citations, failing accuracy and relevance; Method B uses non‑journal sources and adds extra markup (<EVIDENCE>, <FINAL_FORMATTED_RESULT>) that breaches the required format, so neither meets all evaluation criteria."
+        },
+        {
+            "task_id": 73,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides relevant, accurate, comprehensive content on holistic empowerment for elementary English teachers and follows the policy; Method B is off‑topic, less detailed for the target audience, and includes informal elements, failing to fully meet the criteria."
+        },
+        {
+            "task_id": 87,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A directly answers both questions, follows the required tone and structure, and is comprehensive. Method B does not address the copyright dispute aspect, so it fails accuracy/completeness."
+        },
+        {
+            "task_id": 63,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A directly answers the prompt with factual, neutral mitigation suggestions and is presented in a clear, structured format. Method B adds extra commentary outside the <FINAL_ANSWER> wrapper and includes unnecessary text, violating the strict format requirement."
+        },
+        {
+            "task_id": 62,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A is vague, contains speculative statements and poor formatting, failing accuracy, policy, and format criteria; Method B offers factual challenges, concrete solutions, and a clear structured answer, meeting the requirements."
+        },
+        {
+            "task_id": 95,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A includes factual inaccuracies (e.g., the claim about Steve Jobs) which breaches the policy on historical accuracy; Method B, while factually correct, is too brief and lacks the depth and breadth required for comprehensive, in‑depth study notes, thus not fully meeting the prompt."
+        },
+        {
+            "task_id": 77,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include extra tags, repeated sections, and additional commentary beyond a concise executive summary, violating the strict format requirement despite otherwise accurate content."
+        },
+        {
+            "task_id": 91,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain numerous factual errors about characters, ranks, and story details, and neither fully adheres to the required format. Method A misclassifies characters (e.g., Aiolia as Bronze) and provides inaccurate information. Method B also has incorrect names and classifications, and includes extra markup (<FINAL_ANSWER>) not requested. Consequently, both receive a score of 0."
+        },
+        {
+            "task_id": 51,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs violate the required format by adding narrative text beyond a pure markdown table, contain placeholder values instead of concrete data, and use speculative language, thus not adhering to the strict neutrality and factual‑only policy."
+        },
+        {
+            "task_id": 61,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs provide only generic overviews and acknowledge data gaps, offering no concrete factual metrics or detailed analysis, so they fall short on accuracy and comprehensiveness despite neutral tone."
+        },
+        {
+            "task_id": 75,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain extra text, duplicated sections, and non‑summary material (e.g., questions, code fences) that violate the strict executive‑summary‑only format, despite generally accurate content."
+        },
+        {
+            "task_id": 79,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs miss key requirements: Method A discusses only two films instead of the required three and includes questionable factual details, reducing accuracy and comprehensiveness; Method B lists films that do not actually feature transgender themes, contains factual errors and malformed markdown, failing accuracy, policy adherence, and format compliance."
+        },
+        {
+            "task_id": 90,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A is accurate, neutral, comprehensive and well‑structured; Method B includes speculative brand references, inconsistent formatting and less thorough coverage."
+        },
+        {
+            "task_id": 64,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly answer the prompt with factual, neutral content, are well‑structured and comprehensive, and adhere to the policy and requested format."
+        },
+        {
+            "task_id": 53,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs violate the required format and relevance. Method A provides an unwieldy, non‑conforming markdown block that does not present a clear comparative table of key entities. Method B, while containing a markdown table, includes extra tags and commentary, and focuses on sovereign wealth funds and billionaire strategies rather than the investment practices of the world’s wealthiest governments, thus failing the prompt and format requirements."
+        },
+        {
+            "task_id": 63,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A offers factual, neutral, well‑structured mitigation strategies and meets the format requirement, while Method B makes an inaccurate claim that no methods exist, includes extraneous tags, and fails to fully comply with the requested format."
+        },
+        {
+            "task_id": 91,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs have significant factual inaccuracies, omit the required cultural/aesthetic discussion, and do not adhere to the clear structured format requested, thus failing accuracy, policy adherence, and format compliance."
+        },
+        {
+            "task_id": 78,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include extra sections, delimiters and markup beyond the required concise bullet‑point executive summary with bold headers, violating the strict format requirement despite being accurate and comprehensive."
+        },
+        {
+            "task_id": 92,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs focus on technical details and omit the required rich, descriptive overview with cultural, aesthetic, and trend elements, violating the policy. Additionally, they contain extraneous markup tags and do not conform strictly to the requested clear, well‑structured final answer format."
+        },
+        {
+            "task_id": 89,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs are well‑structured and align with the policy, but each contains likely inaccurate factual claims (e.g., the “Death by AI” game’s 20 million players), causing them to fail the accuracy criterion."
+        },
+        {
+            "task_id": 67,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A output is not a single valid JSON object; it contains multiple concatenated snippets and is truncated, violating format compliance. Method B provides a syntactically valid JSON but includes speculative language (e.g., \"potential scalability enables handling ...\"), which breaches the strict neutrality and factual‑only policy."
+        },
+        {
+            "task_id": 51,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs break the required markdown‑table‑only format and Method B also adds speculative market‑size figures, violating the strict factual policy; therefore neither meets all criteria."
+        },
+        {
+            "task_id": 52,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs violate the required format by including extra text, multiple code fences, and not presenting a single markdown table that directly compares the investors side‑by‑side; despite being neutral and mostly factual, the format non‑compliance leads to a score of 0 for each."
+        },
+        {
+            "task_id": 96,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides a clear, structured report that answers the prompt and largely follows the policy; Method B contains extra tags, informal language and prompts, breaking the required format and policy tone."
+        },
+        {
+            "task_id": 81,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both Method A and Method B directly answer the prompt with factual, comprehensive analysis, respect the policy on clear historical explanation, and present the required 'Introduction', 'Key Findings', and 'Conclusion' sections, thus satisfying all evaluation criteria."
+        },
+        {
+            "task_id": 54,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs violate the required format of a single markdown table; Method A adds extra tables, blank rows, and speculative examples, and contains inaccurate statements about Mean‑Variance. Method B wraps the content in custom tags, adds a narrative summary, and includes extra text beyond the table, breaching the strict format requirement despite otherwise factual content."
+        },
+        {
+            "task_id": 84,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain additional narrative, tags, or code fences beyond a plain markdown table, violating the strict format requirement, even though their content is generally factual and relevant."
+        },
+        {
+            "task_id": 95,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A offers comprehensive, accurate, policy‑compliant notes covering all requested domains; Method B misses several required areas (workplace, business, marriage/parenting) and is less complete."
+        },
+        {
+            "task_id": 80,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A offers a comprehensive, descriptive overview covering cultural impact, aesthetic values, and trends in a clear, well‑structured manner, meeting all criteria. Method B, although relevant, contains an extraneous </FINAL_FORMATTED_RESULT> tag and is less clean, breaching the format requirement."
+        },
+        {
+            "task_id": 94,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A gives a factual, neutral answer that addresses the prompt; minor extra tags do not prevent it from being a clear answer. Method B includes speculative language and unnecessary custom tags, breaching the neutrality policy and format requirement."
+        },
+        {
+            "task_id": 59,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include speculative language (e.g., quantum effects, unreferenced percentage reductions) and extraneous formatting/emoji elements that deviate from the required clear, neutral, and strictly factual answer format."
+        },
+        {
+            "task_id": 70,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides a factual, neutral, and comprehensive answer in valid JSON. Method B wraps the JSON in non‑JSON tags (<FINAL_ANSWER>) and thus violates the strict format requirement."
+        },
+        {
+            "task_id": 83,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs deviate from the strict markdown‑table‑only format, omit required images and regional market details, and provide incomplete or speculative data, thus failing accuracy, policy adherence, format compliance, and comprehensiveness."
+        },
+        {
+            "task_id": 69,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A is not a single valid JSON (contains two separate objects), violating format compliance; Method B is a single well‑formed JSON, factual, neutral, and meets the required criteria."
+        },
+        {
+            "task_id": 58,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A stays on topic, provides factual‑sounding references and a neutral overview of HGT in plants and animals, meeting the criteria. Method B adds irrelevant anecdotes and speculative details, lowering its accuracy and relevance."
+        },
+        {
+            "task_id": 98,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides accurate, relevant, policy‑aligned, comprehensive content in a clear structure. Method B, while accurate and relevant, includes extraneous tags and conversational prompts, violating the required clean final answer format."
+        },
+        {
+            "task_id": 81,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A satisfies the prompt, policy, required sections and depth; Method B includes extra markup tags and a duplicated conclusion, violating the strict format requirement."
+        },
+        {
+            "task_id": 57,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs miss key requirements. Method A contains speculative statements, omits many AI-specific details, and adds narrative beyond the required markdown table, violating policy and format. Method B lists unrelated entities, includes extra tags and code fences, and does not focus on the specified consulting firms, failing relevance, policy neutrality, and format compliance."
+        },
+        {
+            "task_id": 71,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A contains excessive filler and repeated sign‑offs, breaking the clear, well‑structured format requirement despite accurate content; Method B presents a concise, organized report that meets accuracy, policy and format criteria."
+        },
+        {
+            "task_id": 82,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A follows the required structure, stays on topic, and provides accurate, comprehensive analysis. Method B adds unrelated historical details and extra markup (<EVIDENCE>, <RESULT>), violating the format and reducing relevance to the prompt."
+        },
+        {
+            "task_id": 68,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A adds non‑JSON text and duplicate code blocks, breaking the required strict JSON format; Method B fails to answer the prompt about predictive or scheduled autoscaling strategies, so it lacks accuracy and relevance despite being valid JSON."
+        },
+        {
+            "task_id": 97,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs miss key policy elements (cultural impact, aesthetic values, trends) and are poorly structured, containing extraneous filler and markup that violate the required clear, well‑structured format."
+        },
+        {
+            "task_id": 86,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs are neutral and well‑structured, but they do not list all current forming techniques (e.g., tube drawing, hydroforming, additive manufacturing) and thus are not fully comprehensive, failing the main evaluation criterion."
+        },
+        {
+            "task_id": 100,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A is incomplete, includes irrelevant details and unverified study claims, and does not present a polished final paper; Method B provides a clear, well‑structured discussion with appropriate analogies and factual content that aligns with the prompt and policy."
+        },
+        {
+            "task_id": 60,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly address the prompt with factual, neutral information, adhere to the neutrality policy, and present well‑structured answers; neither contains significant speculative claims or format violations."
+        },
+        {
+            "task_id": 59,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly answer the prompt with factual, neutral information about navigation cues and disturbances, and present a clear, well‑structured answer."
+        },
+        {
+            "task_id": 70,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides accurate, neutral, comprehensive information in valid JSON. Method B encloses the JSON in <FINAL_ANSWER> tags, breaking the required pure JSON format and is therefore non‑compliant."
+        },
+        {
+            "task_id": 98,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides accurate, relevant, comprehensive, and well‑structured content adhering to the policy. Method B contains excessive markup, repeated sections, and disorganized formatting, violating the required clear format."
+        },
+        {
+            "task_id": 85,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A adds extra meta commentary and stray markup, breaking the clean answer format; Method B delivers a concise, neutral, factual response in a well‑structured layout without unnecessary content."
+        },
+        {
+            "task_id": 88,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain factual inaccuracies about a Netflix adaptation that does not exist and do not strictly follow the requested plain, well‑structured answer format; therefore they fail the accuracy/relevance and format criteria."
+        },
+        {
+            "task_id": 99,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs provide factual information about light‑based therapies but omit the required discussion of cultural impact, aesthetic values, and trends, violating the policy. Format and relevance are acceptable, but policy adherence and full comprehensiveness are lacking."
+        },
+        {
+            "task_id": 74,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs are superficial and do not deliver a detailed, accurate report as required; they contain irrelevant or incomplete content and fail to meet the format and comprehensiveness criteria."
+        },
+        {
+            "task_id": 73,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain off‑topic material (e.g., financial literacy, global lingua franca, tech focus) and extra conversational fluff, reducing accuracy/relevance and deviating from the requested clear research‑paper style. They also do not strictly follow the required formatting, so neither meets all criteria sufficiently."
+        },
+        {
+            "task_id": 62,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A does not follow the required final-answer format, includes extraneous sections and speculative language; Method B provides a concise, neutral, fact‑based answer in the proper format."
+        },
+        {
+            "task_id": 77,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain extra markup, narrative, and sections beyond the strict executive‑summary bullet format, violating the required format despite being factually accurate and policy‑compliant."
+        },
+        {
+            "task_id": 87,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly answer the prompt, are factually accurate, follow the policy tone, and give a fairly comprehensive, descriptive overview despite limited explicit cultural impact details."
+        },
+        {
+            "task_id": 60,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A is repetitive, vague, and fails to present a clear, well‑structured final answer, compromising format and comprehensiveness; Method B offers a concise, factual, neutral, and well‑organized response that meets all criteria."
+        },
+        {
+            "task_id": 61,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A offers only a discussion of data gaps and suggested methods, failing to provide concrete, relevant findings and using a non‑final answer format; Method B delivers factual, relevant information on price dynamics, size variations, and oceanographic links, complies with neutrality, and is well‑structured."
+        },
+        {
+            "task_id": 76,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A fully meets accuracy, policy, format, and comprehensiveness; Method B includes extra tags and off‑topic content, violating the strict format requirement."
+        },
+        {
+            "task_id": 90,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs lack sufficient depth (no specific case law), contain extraneous or non‑standard formatting (Method A has excessive filler sections; Method B wraps answer in <FINAL_ANSWER> tags), and thus do not fully comply with the required clear, well‑structured format."
+        },
+        {
+            "task_id": 66,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A lists plugins that do not directly replicate Notion's multi‑view database and includes speculative language, reducing accuracy and completeness; Method B presents factual plugin information, adheres to the neutral policy, follows the required JSON format, and reasonably addresses the prompt."
+        },
+        {
+            "task_id": 79,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs are reasonably structured but contain multiple factual inaccuracies about the films and directors, failing the accuracy and relevance criterion; thus they do not meet the overall evaluation standards."
+        },
+        {
+            "task_id": 65,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly address the prompt with factual, neutral content, are well‑structured, and meet the required format, providing comprehensive coverage of control theory, phenotypic analysis, and 3D reconstruction."
+        },
+        {
+            "task_id": 63,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs do not give concrete, factual ways to mitigate LN damage after plasma etching, rely on speculative or indirect suggestions, and therefore do not satisfy the accuracy, policy neutrality, and format expectations."
+        },
+        {
+            "task_id": 77,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A directly answers the prompt with accurate, policy‑compliant content in a clean executive‑summary using bullet points and bold headers. Method B includes unrelated material and extra markup tags, deviating from the required format and focus."
+        },
+        {
+            "task_id": 64,
+            "turn_index": 3,
+            "score_a": 1,
+            "score_b": 1,
+            "reason": "Both outputs directly answer the prompt with factual, neutral information, adhere to the policy, are well‑structured, and comprehensively cover methods for improving PID performance."
+        },
+        {
+            "task_id": 89,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A provides accurate, relevant, policy‑aligned, well‑structured content. Method B includes non‑standard tags, less clear structure and minor factual imprecision, failing format and accuracy criteria."
+        },
+        {
+            "task_id": 92,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs omit the required cultural impact, aesthetic values, and trends, violating the policy. While they are reasonably structured, they do not provide the rich, descriptive overview demanded, leading to a failure on policy adherence (and thus overall criteria)."
+        },
+        {
+            "task_id": 78,
+            "turn_index": 2,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A follows the required bullet‑point executive summary with bold headers, is accurate, comprehensive and policy‑compliant. Method B adds extra markup (<EVIDENCE>, <RESULT>), stray instructions and incomplete text, violating the strict format requirement."
+        },
+        {
+            "task_id": 67,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A violates format compliance by outputting multiple separate JSON objects, while Method B delivers a single, well‑structured JSON that directly addresses the prompt, adheres to the neutral factual policy, and is comprehensive."
+        },
+        {
+            "task_id": 53,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include narrative text and do not present a sole Markdown table as required, and they fail to directly address how the world’s wealthiest governments invest, providing irrelevant or speculative information; thus they violate format and relevance criteria."
+        },
+        {
+            "task_id": 52,
+            "turn_index": 1,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs contain additional markup (extra code fences, notes, wrapper tags, HTML breaks) beyond a plain markdown table, violating the strict format requirement; despite generally factual content, the format violations result in a score of 0 for each."
+        },
+        {
+            "task_id": 93,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 1,
+            "reason": "Method A includes extra text and two separate JSON snippets, breaking the required strict JSON format; despite factual content, format non‑compliance leads to a zero. Method B presents a single, well‑structured JSON object that answers the prompt with relevant, factual‑style data and adheres to the policy and format, earning a full point."
+        },
+        {
+            "task_id": 96,
+            "turn_index": 1,
+            "score_a": 1,
+            "score_b": 0,
+            "reason": "Method A answers the prompt accurately, follows the Home & Hobbies policy by mentioning cultural impact and aesthetic values, is well‑structured and comprehensive. Method B, while clear and accurate, lacks the required emphasis on cultural impact and aesthetic values, thus not fully adhering to the policy."
+        },
+        {
+            "task_id": 66,
+            "turn_index": 3,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Method A includes inaccurate or speculative claims (e.g., \"Obsidian’s Bases feature\" and NLP support) and violates the required JSON‑only format by providing extra text and two separate JSON blocks. Method B, while syntactically valid JSON, lists plugins that are not the primary Obsidian solutions for replicating Notion's multi‑view databases and omits key options (e.g., Dataview, Kanban, Calendar plugins), so it does not fully answer the prompt despite adhering to format and policy."
+        },
+        {
+            "task_id": 84,
+            "turn_index": 2,
+            "score_a": 0,
+            "score_b": 0,
+            "reason": "Both outputs include extra narrative, duplicate content, and additional sections beyond a single markdown table, violating the strict format requirement. Method B also adds speculative quantitative claims, breaching the neutrality policy. Hence neither meets all evaluation criteria."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+==================================================
+ REPEATED RUNS PAIRED T-TEST: fixed_semantic vs pla_character
+==================================================
+
+--- Statistical Evaluation for: WORKFLOW_LATENCY ---
+Sample Size (n):     150 pairs (Across 3 turns)
+Baseline Mean:       125.0037s (SD: 60.7561)
+Optimized Mean:      104.2515s (SD: 49.5324)
+Mean Difference (Δ): 20.7523s
+----------------------------------------
+T-Statistic:         17.1940
+P-Value:             3.37e-37
+Effect Size (d):     1.4039 (Large Effect)
+95% CI of Diff:      [18.3673s, 23.1372s]
+
+=> CONCLUSION: The reduction in latency is statistically significant (p < 0.05). With 95% confidence, the true mean time saved lies between 18.37s and 23.14s. The large effect size (d=1.40) confirms the practical magnitude of the optimization.
+
+--- Statistical Evaluation for: TOTAL_TTFT ---
+Sample Size (n):     150 pairs (Across 3 turns)
+Baseline Mean:       1.0369s (SD: 0.2942)
+Optimized Mean:      0.8292s (SD: 0.2525)
+Mean Difference (Δ): 0.2078s
+----------------------------------------
+T-Statistic:         9.9317
+P-Value:             3.74e-18
+Effect Size (d):     0.8109 (Large Effect)
+95% CI of Diff:      [0.1664s, 0.2491s]
+
+=> CONCLUSION: The reduction in latency is statistically significant (p < 0.05). With 95% confidence, the true mean time saved lies between 0.17s and 0.25s. The large effect size (d=0.81) confirms the practical magnitude of the optimization.
