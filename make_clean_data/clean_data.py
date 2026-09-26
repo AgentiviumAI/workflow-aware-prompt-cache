@@ -9,8 +9,8 @@ from pathlib import Path
 CURRENT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = CURRENT_DIR.parent
 
-INPUT_BASE_DIR = PROJECT_ROOT / "raw_result" / "advanced_workflow"
-OUTPUT_BASE_DIR = PROJECT_ROOT / "clean_data"
+INPUT_BASE_DIR = PROJECT_ROOT / "raw_result" / "simple_workflow"
+OUTPUT_BASE_DIR = PROJECT_ROOT / "clean_data" / "simple_workflow"
 
 def clean_and_consolidate_results(input_file: Path, output_method_dir: Path, method_name: str):
     """
