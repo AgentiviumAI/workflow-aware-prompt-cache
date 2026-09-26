@@ -12,36 +12,36 @@ from pathlib import Path
 CURRENT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = CURRENT_DIR.parent
 
-CLEAN_DATA_DIR = PROJECT_ROOT / "clean_data" / "simple_workflow"
-RAW_DIR = PROJECT_ROOT / "raw_result" / "simple_workflow"
+CLEAN_DATA_DIR = PROJECT_ROOT / "clean_data" / "advanced_workflow"
+RAW_DIR = PROJECT_ROOT / "raw_result" / "advanced_workflow"
 VIS_DIR = PROJECT_ROOT / "visualization_data"
 VIS_DIR.mkdir(parents=True, exist_ok=True)
 
 # List of baselines to compare
-METHODS = [
-    "flat_prompt", 
-    "static_first", 
-    "fixed_semantic", 
-    "pla_token_hash"
-]
-
 # METHODS = [
-#     "pla_token_hash",
-#     "pla_character"
+#     "flat_prompt", 
+#     "static_first", 
+#     "fixed_semantic", 
+#     "pla_token_hash"
 # ]
 
-# Better display names for plots
-METHOD_LABELS = {
-    "flat_prompt": "Flat Prompt",
-    "static_first": "Static-First",
-    "fixed_semantic": "Fixed Semantic",
-    "pla_token_hash": "PLA (Token Level)"
-}
+METHODS = [
+    "pla_token_hash",
+    "pla_character"
+]
 
+# Better display names for plots
 # METHOD_LABELS = {
-#     "pla_token_hash": "PLA (Token Hash)",
-#     "pla_character": "PLA (Character)"
+#     "flat_prompt": "Flat Prompt",
+#     "static_first": "Static-First",
+#     "fixed_semantic": "Fixed Semantic",
+#     "pla_token_hash": "Workflow-aware"
 # }
+
+METHOD_LABELS = {
+    "pla_token_hash": "Token_Level",
+    "pla_character": "Character_Level"
+}
 
 # Set global Seaborn style
 sns.set_theme(style="whitegrid", context="paper", font_scale=1.2)

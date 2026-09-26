@@ -114,6 +114,7 @@ def plot_correlation_matrix(df: pd.DataFrame):
         corr_matrix, 
         annot=True,          # Show the correlation values
         fmt=".2f",           # Format to 2 decimal places
+        annot_kws={"size": 18},
         cmap=cmap,           # Color palette
         vmax=1.0,            # Max value for color bar
         vmin=-1.0,           # Min value for color bar
